@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+.titulo {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Anton";
+  background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/JHITZRMKKFA2TEZC35UKBPKBUU.jpg");
+}
+
+.madera {
+  color: transparent;
+  font-size: 150px;
+  background-image: url("https://www.civitatis.com/blog/wp-content/uploads/2020/02/que-ver-islandia.jpg");
+  background-size: cover;
+
+  background-position-y: top;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.celulares {
+  margin-top: -99px;
+  height: 900px;
+  display: flex;
+  background-size: cover;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/JHITZRMKKFA2TEZC35UKBPKBUU.jpg");
+}
+.contenedor {
+  outline: 5px solid rgb(75, 76, 77);
+  border-radius: 25px;
+  transition-duration: 1.5s;
+  order: 0;
+}
+
+.contenedor:hover {
+  transform: translateY(-50px);
+  outline: 5px solid rgb(42, 151, 32);
+  box-shadow: 10px 10px 30px 0px rgba(135, 230, 138, 1);
+}
+
+.celular {
+  border: 8px rgb(0, 0, 0) solid;
+  border-radius: 20px;
+  width: 350px;
+  height: 650px;
+  background-image: url("WhatsApp\ Image\ 2023-01-19\ at\ 5.52.00\ PM.jpeg");
+  background-size: cover;
+}
+
+.notch1 {
+  position: relative;
+  top: 0;
+  left: 50%;
+  width: 40px;
+  height: 28px;
+  background-color: black;
+  border-radius: 10px 10px 18px 18px;
+  transform: translateX(-50%);
+}
+.notch1 .linea {
+  position: absolute;
+  top: 0px;
+  left: -159px;
+  width: 357px;
+  height: 8px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px 10px 10px 10px;
+}
+.notch1 .camara {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(78, 77, 77);
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.datos {
+  width: 370px;
+  height: 25px;
+
+  position: relative;
+  top: -25px;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  font-size: 15px;
+  font-family: "Ek Mukta";
+  margin-left: 5px;
+}
+.alarma img {
+  width: auto;
+  height: 15px;
+  padding-top: 5px;
+  margin-left: 8px;
+}
+
+.derecha {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -45px;
+}
+.derecha img {
+  width: auto;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.aplicaciones {
+  margin: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.aplicaciones img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+}
+
+.aplicaciones p {
+  width: 60px;
+  font-size: 13px;
+  color: white;
+  font-family: "Roboto";
+  margin-top: 1px;
+  text-align: center;
+}
+
+.google {
+  margin-top: -10px;
+  text-align: center;
+}
+.google img {
+  width: 310px;
+  height: auto;
+}
+.spotify {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  bottom: -220px;
+}
+.spotify img {
+  height: 75px;
+  width: 330px;
+}
+
+.aplicacionesAbajo {
+  margin: 25px;
+  display: flex;
+  position: relative;
+  bottom: -230px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.aplicacionesAbajo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+}
+.iphone {
+  border: 1px rgb(75, 76, 77) solid;
+  outline: 5px solid rgb(75, 76, 77);
+  border-radius: 25px;
+  transition-duration: 1.5s;
+}
+.iphone:hover {
+  transform: translateY(-50px);
+  outline: 5px solid rgb(252, 179, 233);
+
+  box-shadow: 10px 10px 30px 0px rgb(252, 179, 233);
+}
+
+.pantalla {
+  border: 3px rgb(0, 0, 0) solid;
+  outline: 2px black solid;
+  border-radius: 25px;
+  width: 330px;
+  height: 650px;
+  background-color: white;
+}
+
+.pantalla #blur {
+  width: 328px;
+  height: 650px;
+  position: absolute;
+  border-radius: 15px;
+  filter: blur(5px);
+  -webkit-filter: blur(6px);
+}
+.notch {
+  position: relative;
+  top: 0;
+  left: 50%;
+  width: 160px;
+  height: 35px;
+  background-color: black;
+  border-radius: 0 0 28px 28px;
+  transform: translateX(-50%);
+}
+.datosip {
+  position: relative;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 7px;
+  top: -30px;
+  right: -25px;
+  width: 300px;
+  font-weight: lighter;
+}
+.datosip img {
+  float: right;
+  position: relative;
+  top: -25px;
+}
+#bater {
+  width: auto;
+  height: 12px;
+}
+#wif {
+  height: 13px;
+  margin-right: 5px;
+}
